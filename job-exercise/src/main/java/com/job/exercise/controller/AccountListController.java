@@ -31,7 +31,7 @@ public class AccountListController {
 	}
 	
     @DeleteMapping("/accountLists/{id}")
-    private void deleteAccountListById(@PathVariable("id	") int id) {
+    private void deleteAccountListById(@PathVariable("id") int id) {
     	accountListService.delete(id);
     }
     
